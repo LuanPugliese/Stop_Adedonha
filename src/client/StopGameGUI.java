@@ -15,7 +15,7 @@ import java.util.List;
 public class StopGameGUI extends JFrame implements IStopClient {
     
     // CONFIGURAÇÃO DE REDE: Altere para o IP da máquina Servidora quando for rodar em rede!
-    private static final String IP_SERVIDOR = "192.168.0.33"; 
+    private static final String IP_SERVIDOR = "IP"; 
     private static final int PORTA_SERVIDOR = 1099;
 
     private IStopServer servidor;
