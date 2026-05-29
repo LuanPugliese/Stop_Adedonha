@@ -16,9 +16,9 @@ import java.util.Map;
 
 public class StopGameGUI extends JFrame implements IStopClient {
     
-    private static final String IP_SERVIDOR = "192.168.0.33"; 
+    private static final String IP_SERVIDOR = "IP"; 
     private static final int PORTA_SERVIDOR = 1099;
-    private static final String IP_MEU_COMPUTADOR = "192.168.0.33"; 
+    private static final String IP_MEU_COMPUTADOR = "IP"; 
 
     private IStopServer servidor;
     private String meuNome;

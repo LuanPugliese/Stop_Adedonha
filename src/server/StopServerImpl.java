@@ -159,7 +159,7 @@ public class StopServerImpl extends UnicastRemoteObject implements IStopServer {
 
     public static void main(String[] args) {
         try {
-            String ipDoServidor = "192.168.0.33"; 
+            String ipDoServidor = "IP"; 
             int porta = 1099;
             
             System.setProperty("java.rmi.server.hostname", ipDoServidor);
